@@ -1,0 +1,140 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+font-family:'Roboto',sans-serif;
+font-size: 16px;
+font-weight:normal;
+background:#e6faf5;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+.avatar {
+    width:160px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.49);
+}
+
+.info{
+    margin-bottom: 20px;
+    display: flex;
+
+}
+.info-text h1{
+    color:#ef6909;
+    margin-left: 40px;
+   
+}
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(51, 42, 42);
+    margin: 6px;
+    margin-left: 40px;
+}
+
+
+ .bg-pink table {
+    width: 100%;
+ }
+ .bg-pink table td{
+    padding-bottom: 10px;
+ }
+.bg-pink table td:nth-child(2),
+.bg-pink table td:nth-child(3){
+    color:grey;
+}
+
+
+.card bg-blue h4 {
+    margin-bottom: 15px;
+}
+.card {
+    border-radius:20px;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    
+}
+.bg-yellow{
+    background: #f8ffab;
+}
+
+.bg-pink{
+    background: #ffe5fc;
+}
+.bg-blue{
+    background: #dee1ff;
+}
+.bg-green{
+    background: #c9ffcf;
+}
+
+a{
+    color:blue;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+a:active {
+    color:rgb(206, 239, 17);
+    }
+
+.btn{
+    background: rgb(242, 175, 32);
+    color:black;
+    padding:8px 5px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor:pointer;
+}
+.btn:hover{
+    opacity: 0.8;
+    }
+.list {
+    padding: 0 20px;
+}
+.list li{
+    color: rgb(80, 69, 69);
+    margin-bottom: 10px;
+}
+.form h4{
+    text-align: center;
+}
+.form-row {
+margin-bottom: 10px;
+
+}
+.form-row .form-group{
+    display: inline-block;
+    margin-right: 20px;
+    width: 46%;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color:grey ;
+}
+ 
+.form-group input,
+.form-group textarea {
+width: 100%;
+box-sizing: border-box;
+border: none;
+background: transparent;
+border-bottom: 1px solid #ccc;
+color: black;
+padding: 15px 0 15px 0;
+outline: none;
+font-family: inherit;
+}
+@media (max-width:650px){
+    .form-row{
+        display:block;
+    }
+}
